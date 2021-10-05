@@ -1,15 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Andy Bowskill`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Andy Bowskill`,
+      summary: `a software developer with over 10 years of experience.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    description: `Andy Bowskill website.`,
+    siteUrl: `https://andybowskilljs.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-plugin-image`,
