@@ -49,6 +49,10 @@ const Bio = () => {
           <a href="https://stackoverflow.com/users/247574/andy-bowskill" target="_blank" rel="noopener">
             Stack Overflow
           </a>
+          {' | '}
+          <a href="mailto:andybowskill@protonmail.com" target="_blank" rel="noopener">
+            Email
+          </a>
         </p>
       )}
     </div>
