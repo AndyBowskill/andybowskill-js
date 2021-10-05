@@ -34,17 +34,16 @@ const Bio = () => {
         layout="fixed"
         formats={["auto", "webp", "avif"]}
         src="../images/avatar.png"
-        width={50}
-        height={50}
+        width={100}
+        height={100}
         quality={95}
         alt="Andy Bowskill picture"
       />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
+          Written by {author.name}, {author.summary}
           <a href="https://github.com/AndyBowskill">
-            GitHub
+            Follow me on GitHub
           </a>
         </p>
       )}
