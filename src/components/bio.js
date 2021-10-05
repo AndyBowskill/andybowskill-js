@@ -39,11 +39,15 @@ const Bio = () => {
         alt="Andy Bowskill picture"
       />
       {author?.name && (
-        <p style={{ maxWidth=360 }}>
+        <p style={{ maxWidth: 360 }}>
           Written by {author.name}, {author.summary}
           {' '}
           <a href="https://github.com/AndyBowskill">
             GitHub
+          </a>
+          {' | '}
+          <a href="https://stackoverflow.com/users/247574/andy-bowskill">
+            Stack Overflow
           </a>
         </p>
       )}
