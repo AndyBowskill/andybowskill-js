@@ -33,13 +33,13 @@ const Bio = () => {
         layout="fixed"
         formats={["auto", "webp", "avif"]}
         src="../images/avatar.png"
-        width={70}
-        height={70}
+        width={100}
+        height={100}
         quality={95}
         alt="Andy Bowskill picture"
       />
       {author?.name && (
-        <p>
+        <p style={{ maxWidth=360 }}>
           Written by {author.name}, {author.summary}
           {' '}
           <a href="https://github.com/AndyBowskill">
