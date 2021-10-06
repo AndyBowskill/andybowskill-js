@@ -2,4 +2,4 @@
 
 My personal website built with [Gatsby](https://github.com/gatsbyjs/gatsby "Gatsby").
 
-https://andybowskill.co.uk/
+https://andybowskill.co.uk
