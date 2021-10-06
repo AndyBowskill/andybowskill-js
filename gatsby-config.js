@@ -6,7 +6,7 @@ module.exports = {
       summary: `a software developer with over 10 years of experience.`,
     },
     description: `Andy Bowskill website.`,
-    siteUrl: `https://andybowskilljs.gatsbyjs.io/`,
+    siteUrl: `https://andybowskill.co.uk/`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -117,7 +117,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
