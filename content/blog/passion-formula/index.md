@@ -1,7 +1,7 @@
 ---
 title: Passion Formula
 date: "2021-10-06T10:09:05"
-description: "Passion Formula"
+description: "How do you work on a side-project that interests you?"
 ---
 
 I was aimlessly looking for a side-project that held my attention. One day, I watched Tom Bilyeu (who hosts the YouTube channel [Impact Theory](https://www.youtube.com/c/TomBilyeu "Impact Theory")) explaining his passion formula. Simply put, it’s this:
