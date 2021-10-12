@@ -1,5 +1,5 @@
 ---
-title: Solid and Other Acronyms
+title: SOLID and Other Acronyms
 date: "2021-10-12T10:09:05"
 description: "Acronyms to bear in mind while problem-solving."
 ---
@@ -28,15 +28,15 @@ Simply put, the objects of a class should be replaceable with objects of a subcl
 
 ‘Classes that implement interfaces, should not be forced to implement methods they do not use.’
 
-Simply put, prefer various small and straightforward interfaces over one, God-like interface.
+Simply put, I prefer various small and straightforward interfaces over one, God-like interface.
 
 **Dependency Inversion Principle**
 
 ‘High-level modules should not depend on low-level modules, rather both should depend on abstraction.’
 
-Simply put, prefer to inject a high-level class or function into a low-level class or function by passing it in a low-level class or function arguments. That way, a low-level class or function has nothing to do or care about a high-level class or function but use it.
+Simply put, I prefer to inject a high-level function into a low-level function by passing it in a low-level function argument. That way, a low-level function has nothing to do or care about a high-level function but use it.
 
-**Other Acronyms Apart From Solid Are Relevant Still Today.**
+**Other Acronyms Apart From SOLID Are Relevant Still Today.**
 
 **DRY**
 
