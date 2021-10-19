@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "andybowskill",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Andy Bowskill's website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Andy Bowskill <andybowskill@protonmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/AndyBowskill/andybowskill-js/issues"
   },
   "dependencies": {
     "gatsby": "^3.13.1",
@@ -34,7 +34,7 @@
   "devDependencies": {
     "prettier": "2.4.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://andybowskill.co.uk/",
   "keywords": [
     "gatsby"
   ],
@@ -42,7 +42,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/AndyBowskill/andybowskill-js.git"
   },
   "scripts": {
     "build": "gatsby build",

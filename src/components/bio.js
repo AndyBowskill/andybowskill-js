@@ -40,17 +40,17 @@ const Bio = () => {
       />
       {author?.summary && (
         <p style={{ maxWidth: 340 }}>
-          Written by Andy Bowskill, {author.summary}
+          Written by Andy Bowskill. {author.summary}
           {' '}
-          <a href="https://github.com/AndyBowskill" target="_blank" rel="noopener">
+          <a href="https://github.com/AndyBowskill" target="_blank" rel="noreferrer noopener">
             GitHub
           </a>
           {' | '}
-          <a href="https://stackoverflow.com/users/247574/andy-bowskill" target="_blank" rel="noopener">
+          <a href="https://stackoverflow.com/users/247574/andy-bowskill" target="_blank" rel="noreferrer noopener">
             Stack Overflow
           </a>
           {' | '}
-          <a href="mailto:andybowskill@protonmail.com" target="_blank" rel="noopener">
+          <a href="mailto:andybowskill@protonmail.com" target="_blank" rel="noreferrer noopener">
             Email
           </a>
         </p>

@@ -3,7 +3,7 @@ module.exports = {
     title: `Andy Bowskill`,
     author: {
       name: `Andy Bowskill`,
-      summary: `a software developer with over 10 years of experience.`,
+      summary: `A software developer with over 10 years of experience.`,
     },
     description: `Andy Bowskill website.`,
     siteUrl: `https://andybowskill.co.uk/`,
@@ -48,12 +48,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `290399594`,
+      },
+    },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
