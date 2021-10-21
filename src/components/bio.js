@@ -38,10 +38,11 @@ const Bio = () => {
         quality={95}
         alt="Andy Bowskill picture"
       />
-      {author?.summary && (
-        <p style={{ maxWidth: 340 }}>
+      <div style={{ maxWidth: 320 }}>
+        <p>
           Written by Andy Bowskill. {author.summary}
-          {' '}
+        </p>
+        <p>
           <a href="https://github.com/AndyBowskill" target="_blank" rel="noreferrer noopener">
             GitHub
           </a>
@@ -54,7 +55,7 @@ const Bio = () => {
             Email
           </a>
         </p>
-      )}
+      </div>
     </div>
   )
 }
