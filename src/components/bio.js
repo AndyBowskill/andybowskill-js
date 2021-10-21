@@ -33,10 +33,10 @@ const Bio = () => {
         layout="fixed"
         formats={["auto", "webp", "avif"]}
         src="../images/avatar.png"
-        width={100}
-        height={100}
+        width={50}
+        height={50}
         quality={95}
-        alt="Andy Bowskill picture"
+        alt="Picture of Andy Bowskill"
       />
       <div style={{ maxWidth: 320 }}>
         <p>
