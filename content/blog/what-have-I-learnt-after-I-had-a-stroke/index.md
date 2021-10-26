@@ -27,7 +27,7 @@ Programming languages and technology, as a whole, are constantly changing. It wo
 **Physical books about software development are out-of-date straightaway.**
 
 Physical books about frameworks, concepts and programming languages are out-of-date straightaway, sadly. I prefer to go to YouTube or an official website for up-to-date documentation.
-For example, Facebook’s React has an excellent website detailing React and the guidelines for that as well. The official website is https://reactjs.org/. On YouTube, Leigh Halliday is an expert with React and Leigh’s videos are here https://www.youtube.com/c/leighhalliday
+For example, Facebook’s React has an excellent website detailing React and the guidelines for that as well. The official website is [here](https://reactjs.org/). On YouTube, Leigh Halliday is an expert with React and Leigh’s videos are [here](https://www.youtube.com/c/leighhalliday).
 
 **We are replaceable at work.**
 
