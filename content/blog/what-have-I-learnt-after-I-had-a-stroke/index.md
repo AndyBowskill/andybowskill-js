@@ -1,7 +1,7 @@
 ---
 title: "What Have I Learnt About Software Development After I Had a Stroke."
 date: "2021-10-26T10:09:05"
-description: "Five years ago, I had a stroke when I was 35 years old. Things I realised after about software development and life in general."
+description: "Five years ago, I had a stroke when I was 35 years old. Some of the things I realised after about software development and life in general."
 ---
 
 Five years ago, I had a stroke when I was 35 years old. It was a freak accident playing bubble football for my cousin’s stag weekend. At the time, I was a senior developer, and I led 3 Scrum teams for any technical queries and advice. I worked hard, but I quite liked the pace. Countless hours flew by when I worked and connected with my fellow colleagues. I worked from 8:00 until 19:00 frequently. Occasionally, I worked throughout my lunch hour too. Well, not only work, but also I enjoyed as a hobby.
