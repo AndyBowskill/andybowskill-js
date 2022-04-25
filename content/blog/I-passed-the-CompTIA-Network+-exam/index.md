@@ -4,15 +4,15 @@ date: "2022-04-25T11:09:05"
 description: "Recently, I passed the CompTIA Network+ exam first time. It was the first certification I passed after my stroke."
 ---
 
-Recently, I passed the CompTIA Network+ exam first time. It was the first certification I passed after my stroke. I was nervous but excited and confident because I studied quite a bit and took a few mock exams before the actual exam.
+Recently, I passed the CompTIA Network+ exam. It was the first certification I passed after my stroke. I was nervous but excited and confident because I studied quite a bit and took a few mock exams before the actual exam.
 
 I’m a software developer, so the concepts are familiar, but I didn’t understand the concepts for the low-level networks and I was completely oblivious to the OSI model.
 
-The best way to learn new concepts is with the physical hardware. I bought a Netgear 1100 router (it uses pfSense, a superb firewall and router) and a TP-Link 5 port smart switch. I want to be hands-on with VLANs, VPN, DCHP, etc., rather than reading a book solely.
+The best way to learn new concepts is with the physical hardware. I bought a Netgear 1100 router (it uses pfSense, a superb firewall and router) and a TP-Link 5 port smart switch. I want to be hands-on with VLANs, VPN, DHCP, etc., rather than reading a book solely.
 
 >Tell me and I forget,
-teach me and I remember,
-involve me and I learn.
+>teach me and I remember,
+>involve me and I learn.
 >
 >Benjamin Franklin
 >
