@@ -76,4 +76,6 @@ Sending 5, 100-byte ICMP Echos to 2001:DB8:2:2::5, timeout is 2 seconds:
 !!!!!
 Success rate is 100 percent (5/5), round-trip min/avg/max = 0/0/0 ms
 ```
-I will link the Cisco Packet Tracer file for this scenario below. I found it useful to ping from Router-Cardiff to Router-Exeter in simulation mode and see exactly the layers 2 and 3 for each router through the lifespan of a ping.
+In Cisco Packet Tracer, I found it useful to ping from Router-Cardiff to Router-Exeter in simulation mode and see exactly the layers 2 and 3 for each router through the lifespan of a ping.
+
+![Ping from Router-Cardiff to Router-Exeter in simulation mode](./images/simulation-mode.png)
