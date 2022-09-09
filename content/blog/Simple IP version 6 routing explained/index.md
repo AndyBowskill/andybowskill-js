@@ -5,6 +5,8 @@ description: "In this blog post (and future posts), I want to break down the con
 ---
 In this blog post (and future posts), I want to break down the concepts that puzzled me in the past during my CCNA journey. This time, I want to explain IPv6 with a simple IPv6 routing scenario: Three routers connected to each other with IPv6 solely. The router's names are UK cities, Cardiff, Bristol and Exeter.
 
+![Three routers connected to eachother with IPv6 in Cisco Packet Tracer](./images/setup.png)
+
 As a side point, I will use an IPv6 global unicast address solely. The majority types of IPv6 addresses I will leave out for the moment to simplify things.
 
 The IPv6 global unicast address is split up into several portions. For example:
