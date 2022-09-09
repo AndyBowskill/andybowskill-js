@@ -27,17 +27,16 @@ Router-Cardiff(config-if)#ipv6 enable
 
 Next, we are going to use a unique global unicast address for each interface. The IPv6 global unicast address is similar to the IPv4 public address, they are both used on the internet. Let’s configure each router’s interface, for example:
 ```
-Router-Cardiff
 Router-Cardiff(config)#interface g0/0
 Router-Cardiff(config-if)#ipv6 address 2001:DB8:1:2::2/64
-
-Router-Bristol
+```
+```
 Router-Bristol(config)#interface g0/0
 Router-Bristol(config-if)#ipv6 address 2001:DB8:1:2::3/64
 Router-Bristol(config)#interface g0/1
 Router-Bristol(config-if)#ipv6 address 2001:DB8:2:2::4/64
-
-Router-Exeter
+```
+```
 Router-Exeter(config)#interface g0/1
 Router-Exeter(config-if)#ipv6 address 2001:DB8:2:2::5/64
 ```
