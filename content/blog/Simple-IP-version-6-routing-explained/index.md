@@ -68,6 +68,22 @@ Router-Exeter(config)#ipv6 route 2001:DB8:1:2::/64 2001:DB8:2:2::4
 ```
 The above indicates the IPv6 route to the 2001:DB8:1:2::/64 subnet address via Router-Bristol’s Gigabit 0/1 interface.
 
+We want to confirm the static route with the ```show ipv6 route``` command afterwards. For example:
+```
+Router-Exeter#show ipv6 route
+IPv6 Routing Table - 4 entries
+Codes: C - Connected, L - Local, S - Static, R - RIP, B - BGP
+       U - Per-user Static route, M - MIPv6
+       I1 - ISIS L1, I2 - ISIS L2, IA - ISIS interarea, IS - ISIS summary
+       ND - ND Default, NDp - ND Prefix, DCE - Destination, NDr - Redirect
+       O - OSPF intra, OI - OSPF inter, OE1 - OSPF ext 1, OE2 - OSPF ext 2
+       ON1 - OSPF NSSA ext 1, ON2 - OSPF NSSA ext 2
+       D - EIGRP, EX - EIGRP external
+S   2001:DB8:1:2::/64 [1/0]
+     via 2001:DB8:2:2::4
+~
+```
+
 The ping from Router-Cardiff to Router-Exeter’s Gigabit 0/1 interface should work now:
 ```
 Router-Cardiff#ping 2001:DB8:2:2::5
