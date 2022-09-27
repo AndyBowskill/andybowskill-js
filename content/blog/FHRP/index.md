@@ -60,7 +60,7 @@ Router-2(config-if)#standby version 2
 ```
 Router-2(config-if)#standby 1 priority 150
 ```
-* Preemption is disabled but you can change that as well by using, for example:
+* Preemption defaults to disabled but you can change that as well by using, for example:
 ```
 Router-2(config-if)#standby 1 preempt
 ```
