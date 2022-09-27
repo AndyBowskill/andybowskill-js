@@ -7,7 +7,7 @@ Following on the last post, I want to explain FHRP, First Hop Redundancy Protoco
 
 First Hop Redundancy Protocol is a concept of multiple routers in the same subnet as one router. Let’s say you have a key router and the router performs packet-forwarding operations. But the router could be down for several seconds. What then? Your colleagues are not happy because they can’t do their jobs. One point of failure isn’t ideal.
 
-![2](./images/2.jpg)
+![1](./images/1.png)
 
 The First Hop Redundancy Protocol options are Hot Standby Router Protocol (HSRP), Virtual Router Redundancy Protocol (VRRP) and Gateway Load Balancing Protocol (GLBP). It’s good to know the options available to you but the Hot Standby Router Protocol is covered in the CCNA only.
 
@@ -15,7 +15,7 @@ The Hot Standby Router Protocol is a Cisco proprietary First Hop Redundancy Prot
 
 Notice that the end user’s computers use the virtual IP as the default gateway now.
 
-![4](./images/4.jpg)
+![2](./images/2.png)
 
 To configure the routers to use Hot Standby Router Protocol:
 ```
@@ -38,19 +38,20 @@ To verify the routers using the Hot Standby Router Protocol:
 Router-1#show standby brief
 ```
 
-![5](./images/5.jpg)
+![3](./images/3.png)
 
 ```
 Router-2#show standby brief
 ```
 
-![6](./images/6.jpg)
+![4](./images/4.png)
 
 Or, if you want an in-depth look use ```show standby``` instead:
 
-![7](./images/7.jpg)
+![5](./images/5.png)
 
 Regarding key facts above:
+
 Virtual MAC address is the same address minus the last 3 hexadecimal digits, which is the standby group number, 1 in our case.
 We are configuring version 1 in this post, the default version. If you want to configure IPv6 as well, use this command to update the version:
 ```
