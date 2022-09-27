@@ -52,16 +52,15 @@ Or, if you want an in-depth look use ```show standby``` instead:
 
 Regarding key details above:
 
-Virtual MAC address is the same address minus the last 3 hexadecimal digits, which is the standby group number, 1 in our case.
-We are configuring version 1 in this post, the default version. If you want to configure IPv6 as well, use this command to update the version:
+* Virtual MAC address is the same address minus the last 3 hexadecimal digits, which is the standby group number, 1 in our case. We are configuring version 1 in this post, the default version. If you want to configure IPv6 as well, use this command to update the version:
 ```
 Router-2(config-if)#standby version 2
 ```
-Priority defaults to 100 but you can change that by using, for example:
+* Priority defaults to 100 but you can change that by using, for example:
 ```
 Router-2(config-if)#standby 1 priority 150
 ```
-Preemption is disabled but you can change that as well by using, for example:
+* Preemption is disabled but you can change that as well by using, for example:
 ```
 Router-2(config-if)#standby 1 preempt
 ```
