@@ -1,7 +1,7 @@
 ---
 title: "First Hop Redundancy Protocol."
 date: "2022-09-27T11:09:05"
-description: ""
+description: "Following on the last post, I want to explain FHRP, First Hop Redundancy Protocol. Another key topic in the CCNA 200-301 exam."
 ---
 Following on the last post, I want to explain FHRP, First Hop Redundancy Protocol. Another key topic in the CCNA 200-301 exam.
 
@@ -18,7 +18,6 @@ Notice that the end user’s computers use the virtual IP as the default gateway
 ![4](./images/4.jpg)
 
 To configure the routers to use Hot Standby Router Protocol:
-
 ```
 Router-1>en
 Router-1#conf t
@@ -35,7 +34,6 @@ Router-2(config-if)#standby 1 ip 10.1.2.254
 ```
 
 To verify the routers using the Hot Standby Router Protocol:
-
 ```
 Router-1#show standby brief
 ```
@@ -55,21 +53,15 @@ Or, if you want an in-depth look use ```show standby``` instead:
 Regarding key facts above:
 Virtual MAC address is the same address minus the last 3 hexadecimal digits, which is the standby group number, 1 in our case.
 We are configuring version 1 in this post, the default version. If you want to configure IPv6 as well, use this command to update the version:
-
 ```
 Router-2(config-if)#standby version 2
 ```
-
 Priority defaults to 100 but you can change that by using, for example:
-
 ```
 Router-2(config-if)#standby 1 priority 150
 ```
-
 Preemption is disabled but you can change that as well by using, for example:
-
 ```
 Router-2(config-if)#standby 1 preempt
 ```
-
 So, router 2 has a priority over router 1 in this case.
