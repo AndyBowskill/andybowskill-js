@@ -50,7 +50,7 @@ Or, if you want an in-depth look use ```show standby``` instead:
 
 ![5](./images/5.png)
 
-Regarding key facts above:
+Regarding key details above:
 
 Virtual MAC address is the same address minus the last 3 hexadecimal digits, which is the standby group number, 1 in our case.
 We are configuring version 1 in this post, the default version. If you want to configure IPv6 as well, use this command to update the version:
