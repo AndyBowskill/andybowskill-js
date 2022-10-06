@@ -3,7 +3,7 @@ module.exports = {
     title: `Andy Bowskill`,
     author: {
       name: `Andy Bowskill`,
-      summary: `A network engineer and software developer with over 10 years of experience.`,
+      summary: `A software developer and technical lead with over 10 years of experience.`,
     },
     description: `Andy Bowskill website.`,
     siteUrl: `https://andybowskill.co.uk/`,
